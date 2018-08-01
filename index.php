@@ -47,6 +47,8 @@ function fast_reserve_submit(){
             <div class="clear"></div>
          </div>
 
+ㅁㅁㅁㅁㅁㅁ
+
          
          <div id="event"><div id="in_event">
          <img src="./common_img/12.EVENT.png" id="event_img">

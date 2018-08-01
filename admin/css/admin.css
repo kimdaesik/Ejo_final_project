@@ -1,0 +1,56 @@
+@charset "UTF-8";
+div #intro{
+    width:80%;
+    height:90%;
+    margin-left:10%;
+}
+
+div #resort_edit{
+	text-align: center;
+	float:left;
+	width: 12%;
+	height: 5%;
+	margin-left: 7%;
+	
+}
+div #room_edit{
+	text-align: center;
+	width: 12%;
+	height: 5%;
+	float:left;
+	margin-left: 13%;
+}
+div #event_edit{
+	text-align: center;
+	width: 12%;
+	height: 5%;
+	float:left;
+	margin-left: 13%;
+}
+div #useguide_edit{
+	text-align: center;
+	width: 12%;
+	height: 5%;
+	float:left;
+	margin-left: 13%;
+}
+
+#content{
+   height: 75%;
+   width: 100%;
+   background-color: FFFFFF;
+}
+
+div #view_title{
+	font-size: 15pt;
+	text-align:center;
+	margin-top : 5%;
+	margin-bottom : 5%;
+}
+
+#clear{
+	margin-top:5%;
+	margin-bottom:3%;
+	clear: both;
+	width: 95%;
+}

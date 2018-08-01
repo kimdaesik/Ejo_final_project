@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+#notice_go{
+   margin-top: 5%;
+   width: 70%;
+   height: 60%;
+   background-color: #EAF5F9;
+   border-radius: 6px;
+}
+.notice_list{
+   color: gray;
+}
+#notice_link:hover{
+   color: #C8C8C8;
+   font-size: 12pt;
+   font-family: 굴림체;
+   text-decoration: none;
+   font-weight: bold;
+   margin-left: 3%;
+}
+#notice_link:visited {
+   color: #808080;
+   font-size: 12pt;
+   font-family: 굴림체;
+   text-decoration: none;
+   margin-left: 3%;
+}
+#notice_link:link{
+   color: #808080;
+   font-size: 12pt;
+   font-family: 굴림체;
+   text-decoration: none;
+   margin-left: 3%;
+}
+
+
+#qna_go{
+   margin-top: 5%;
+   width: 70%;
+   height: 60%;
+   background-color: #FFFFFF;
+   border-radius: 6px;
+}
+.qna_list{
+   color: gray;
+}
+#qna_link:hover{
+   color: #C8C8C8;
+   font-size: 12pt;
+   font-family: 굴림체;
+   text-decoration: none;
+   font-weight: bold;
+   margin-left: 3%;
+}
+#qna_link:visited {
+   color: #808080;
+   font-size: 12pt;
+   font-family: 굴림체;
+   text-decoration: none;
+   margin-left: 3%;
+}
+#qna_link:link{
+   color: #808080;
+   font-size: 12pt;
+   font-family: 굴림체;
+   text-decoration: none;
+   margin-left: 3%;
+}

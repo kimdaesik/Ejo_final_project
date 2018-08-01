@@ -1,0 +1,8 @@
+@charset "UTF-8";
+#ta td{
+	border : 1px solid red;
+}
+.inputs{
+	width: 340px;
+	height: 33px;
+}

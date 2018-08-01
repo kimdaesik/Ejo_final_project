@@ -1,0 +1,89 @@
+@charset "UTF-8";
+#view{
+    width: 80%;
+    height: 99.6%;
+    margin-left: 10%;
+}
+section{
+    height: 80%;
+}
+#select_room{
+   height: 12%;
+   width: 100%;
+}
+#room1,#room2,#room3{
+   display: inline;
+   margin-left: 21%;
+}
+#select_day{
+   height: 13%;
+   width: 100%;
+   text-align: center;
+}
+#select_option{
+   margin-top : 4%;
+   height: 20%;
+   width: 10%;
+   text-align: center;
+}
+#information{
+   border: 1px solid black;
+   height: 20%;
+}
+#calender_tb{
+   width: 86%;
+   height: 65%;
+}
+.calender_td2{
+   height: 6%;
+   background-color: #088a99;
+   color: #ffffff;
+}
+.first{
+   color:#FFFFFF; 
+   background-color: #088a99;
+   margin-top: 13%;
+   text-align: center;
+}
+.first2{
+   color:#FFFFFF; 
+   background-color: #088a99;
+   margin-top: 13%;
+   text-align: center;
+}
+.second{
+   color:#FFFFFF; 
+   background-color: #088a99;
+   margin-top: 2%;
+   text-align: center;
+}
+.impossible{
+   background-color: #ff6868;
+   color: white;
+}
+.possible{
+   background-color: #2b75c8;
+   color: white;
+}
+.reserve_status1{
+   background-color : #EAF5F9;
+   color : #808080;
+   display : block;
+   width : 100%;
+   margin-top: 2%;
+}
+.reserve_status4{
+   background-color : #FDE0EF;
+   color : red;
+   font-size : 10pt;
+   width : 100%;
+   margin-top: 2%;
+}
+.reserve_status5{
+   width : 80%;
+   margin-top: 2%;
+}
+#td_size{
+   width: 13.5%;
+}
+

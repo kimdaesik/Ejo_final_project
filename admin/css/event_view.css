@@ -1,0 +1,164 @@
+@charset "UTF-8";
+div#sec{
+	background-color: #EAF5F9;
+	width: 1550px;
+	height: 100%;
+}
+
+#content{
+	height: 110.98%;
+	width: 79.9%;
+	background-color: FFFFFF;
+	margin-left: 10%;
+}
+div#event_content{
+	margin-top: 4%;
+	margin-left: 0%;
+	text-align: center;
+	height: 6%;
+	padding-top: 1%;
+}
+p#noti{
+	font-size: 15pt;
+}
+div#noti1{
+	margin-left: 29.7%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 40%;
+	height: 5%;
+	padding-top: 1%;
+	text-align: center;
+	border-radius: 8px;
+}
+#clear{
+   margin-top:0.23%;
+   margin-bottom:2%;
+   clear: both;
+   width: 95%;
+}
+
+
+
+#title_content{
+	margin-top: 3%;
+	width: 85%;
+	height: 70%;	
+}
+#title_main{
+	width:100%;
+	float: left;
+	height: 7%;
+	width: 99.9%;
+}
+#title{
+	float: left;
+	width: 20%;
+	height: 99.9%;
+	background-color: #FFF1FC;
+}
+#title_1{
+	float: left;
+	width: 79.8%;
+	height: 100%;
+	background-color: #EAF5F9;
+}
+#title_2{
+	float: left;
+	width: 78%;
+	height: 44%;
+	margin-top: 1.8%;
+	margin-left: 3%;
+	line-height: 180%;
+	padding-left: 1%;
+	padding-top: 0.5%;
+	text-align: left;
+	font-family: 굴림체;
+	font-size: 11pt;
+	background-color: #FFFFFF;
+}
+#day{
+	float: left;
+	width: 13%;
+	height: 44%;
+	margin-top: 1.8%;
+	margin-left: 1%;
+	line-height: 180%;
+	padding-left: 1%;
+	padding-top: 0.3%;
+	text-align: center;
+	font-family: 굴림체;
+	font-size: 10pt;
+	color: 9D9D9D;
+	background-color: #FFFFFF;
+}
+
+
+
+#content_main{
+	width:100%;
+	float: left;
+	height: 92.7%;
+	width: 99.9%;
+}
+#content_title{
+	float: left;
+	width: 20%;
+	height: 99.8%;
+	background-color: #FFF1FC;
+}
+#content_content{
+	float: left;
+	width: 79.7%;
+	height: 99.8%;
+	background-color: #EAF5F9;
+}
+#content_1{
+	float:left;
+	overflow-y: auto;
+	width: 86%;
+	height: 86%;
+	text-align: left;
+	background-color: #FFFFFF;
+	margin-top: 3%;
+	margin-left: 3%;
+	padding: 3%;
+	outline:none;
+	resize: none;
+	font-family: 굴림체;
+	font-size: 9pt;
+}
+
+
+
+#ahrfhr{
+	margin-top: 1%;
+	float: right;
+	width: 28%;
+	height: 4%;
+	margin-right: 5%;
+}
+#modify{
+	margin-top: 2.8%;
+	margin-left: 10%;
+	width: 23%;
+	height: 60%;
+	float: left;
+	text-align: center;
+}
+#del_rmf{
+	margin-top: 2.8%;
+	margin-left: 5%;
+	width: 23%;
+	height: 60%;
+	float: left;
+	text-align: center;
+}
+#list{
+	margin-top: 2.8%;
+	margin-left: 5%;	
+	width: 23%;
+	height: 60%;
+	float: left;
+	text-align: center;
+}

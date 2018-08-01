@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+#event_title{
+	width: 78%;
+	height: 6%;
+	padding-top: 1.5%;
+	padding-left: 2%;
+	float: left;
+	margin-left: 10%;
+	background-color: #088a99;
+	color: #FFFFFF;
+	font-family: 나눔고딕;
+	font-weight: 700;
+	border-radius: 8px;
+}
+#event_content{
+	width: 79.8%;
+	height: 83%;
+	float: left;
+	margin-left: 10%;
+	border: 1px solid #aeaeae;
+	border-radius: 8px;
+	margin-top: 1%;
+	overflow-y: auto;
+	text-align: center;
+}
+.img{
+	margin-top: 4%;
+}
+#event_button{
+	float: left;
+	width: 10%;
+	height: 5%;
+	margin-top: 1%;
+	margin-left: 45%;
+}
+#event_close{
+	background-color: #088a99;
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+	outline: none;
+	border-radius: 8px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+#event_close:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #29e1f5;
+}

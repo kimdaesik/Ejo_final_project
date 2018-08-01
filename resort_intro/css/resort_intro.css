@@ -1,0 +1,86 @@
+@charset "UTF-8";
+#side_menu{
+    width: 16.2%;
+    height: 99.6%;
+    float : left;
+    margin-left: 9.87%;
+}
+#view{
+    width: 80%;
+    height: 99.6%;
+    margin-left: 10%;
+}
+section{
+    height: 80%;
+}
+#place_list1,#place_list2,#place_list3,#place_list4,#place_list5,#place_list6{
+   width: 100%;
+    height: 5%;
+   text-align: center;
+   padding-top: 10%;
+}
+#view_title{
+   text-align: center;
+   width: 60%;
+    height: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 15pt;
+}
+#view_list1{
+   width: 18%;
+   height: 5%;
+   float: left;
+   text-align: center;
+   margin-left: 22%;
+   margin-bottom: 1%;
+}
+#view_list2{
+   width: 18%;
+   height: 5%;
+   float: left;
+   margin-left: 19%;
+   margin-bottom: 1%;
+   text-align: center;
+}
+#view_content{
+   width: 95%;
+   height : 71%;
+   text-align: center;
+}
+#clear{
+   margin-top: 3%;
+   margin-bottom: 2%;
+   clear: both;
+   width: 95%;
+}
+.image{
+   width: 28%;
+   height : 45%;
+   float: left;
+}
+.info{
+   width: 67.5%;
+   height : 45%;
+   float: left;
+}
+#page{
+   width : 40%;
+   clear : both;
+   text-align: center;
+}
+.td1{
+   background-color : #e8e8e8; width :28%; height : 15%;
+}
+.td2{
+   background-color : #e8e8e8; width :28%; height : 39%;
+}
+.td3{
+   border:1px solid #e8e8e8; width :70%; height : 15%;
+}
+.td4{
+   border:1px solid #e8e8e8; width :70%; height : 39%;
+}
+#page_num{
+   text-align: center;
+}

@@ -1,0 +1,151 @@
+@charset "UTF-8";
+#view{
+    width: 63.8%;
+    height: 80%;
+    text-align: center;
+}
+section{
+    height: 100%;
+}
+
+div #view_title{
+	font-size: 15pt;
+	text-align:center;
+	margin-top : 5%;
+	margin-bottom : 5%;
+}
+
+#clear{
+	margin-top:5%;
+	margin-bottom:3%;
+	clear: both;
+	width: 95%;
+}
+#btn_family{
+	width: 10%;
+	text-align: center;
+	float: left;
+	margin-left: 20%;
+}
+#btn_suite{
+	width: 10%;
+	text-align: center;
+	float: left;
+	margin-left: 15%;	
+}
+#btn_royalsuite{
+	width: 10%;
+	text-align: center;
+	float: left;
+	margin-left: 15%;	
+}
+div#room_picture{
+	width: 40%;
+	height: 50%;
+	float:left;
+	margin-top:3%;
+	margin-left:10%;
+}
+div#pictures{
+	float:left;
+	width:40%;
+	height: 50%;
+	margin-top:3%;
+	margin-left:3%;
+}
+div#information{
+	margin-top:3%;
+	float: left;
+	width: 40%;
+	height: 25%;
+	margin-top:2%;
+	margin-left:10%;
+}
+div#picture1{
+	border: 1px solid black;
+	width: 48%;
+	height: 49%;
+	float:left;
+	margin-left:0.5%;
+}
+div#picture2{
+	border: 1px solid black;
+	width: 48%;
+	height: 49%;
+	float:left;
+	margin-left:0.5%;
+}
+div#picture3{
+	border: 1px solid black;
+	width: 48%;
+	height: 49%;
+	float:left;
+	margin-left:0.5%;
+	margin-top: 0.5%;
+}
+div#picture4{
+	border: 1px solid black;
+	width: 48%;
+	height: 49%;
+	float:left;
+	margin-left:0.5%;
+	margin-top: 0.5%;
+}
+div#pricetable{
+	margin-top:3%;
+	float: left;
+	width: 40%;
+	height: 25%;
+	margin-top:2%;
+	margin-left:3%;
+}
+div.picture_chage{
+	border: 1px solid black;
+	width: 100%;
+	height: 24.5%;
+}
+#btn_room_update{
+	width: 20%;
+	float:left;
+	margin-left: 47%;
+	margin-top: 2%;
+	width: 10%;
+}
+#explanation{
+	resize:none;
+}
+.pic_location{
+	border: 1px solid black;
+	margin-top:0.1%;
+	float:right;
+	height:99%;
+	width: 25%;
+}
+.top_left{
+	border:1px solid black;
+	float:left;
+	margin-top:1%;
+	height:45%;
+	width:45%;
+}
+.top_right{
+	border:1px solid black;
+	float:left;
+	height:45%;
+	width:45%;
+}
+.bottom_left{
+	border:1px solid black;
+	float:left;
+	height:45%;
+	width:45%;
+}
+.bottom_right{
+	border:1px solid black;
+	float:left;
+	height:45%;
+	width:45%;
+}
+.del_file{
+	margin-left:25%;
+}

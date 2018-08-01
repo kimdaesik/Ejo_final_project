@@ -1,0 +1,389 @@
+@charset "UTF-8";
+#m{
+	width: 80%;
+	height: 100px;
+}
+section{
+	background-color: #EAF5F9;
+}
+#section_1{
+	border: 1px solid #FFFFFF;
+	height: 100%;
+	width: 80%;
+	background-color: #FFFFFF;
+}
+#info{
+	font-size: 15pt;
+}
+#myinfo{
+	margin-top: 4%;
+	margin-left: 0%;
+	text-align: center;
+	height: 6%;
+	padding-top: 1%;
+}
+#info_modify{
+	margin-top: 4%;
+	width: 18%;
+	height: 70%;
+	float: left;
+	margin-left: 20%;
+}
+#pw_modify{
+	margin-top: 4%;
+	width: 18%;
+	height: 70%;
+	float: left;
+	margin-left: 2%;
+}
+#my_reserve{
+	margin-top: 4%;
+	width: 18%;
+	height: 70%;
+	float: left;
+	margin-left: 2%;
+}
+
+#clear{
+   margin-top:2%;
+   margin-bottom:2%;
+   clear: both;
+   width: 95%;
+}
+
+#my_info_frame{
+	width: 55%;
+	height: 60%;
+	border: 1px solid #EAF5F9;
+	background-color: #EAF5F9;
+}
+#my_info_title{
+	width: 99.8%;
+	height: 10%;
+	border: 1px solid #088a99;
+	background-color: #088a99;
+	color: #FFFFFF;
+}
+#member_edit_title{
+	margin-top: 2%;
+	margin-left: 38%;
+}
+
+
+#id_frame{
+	border-radius: 8px;
+	width: 80%;
+	height: 7%;
+	margin-top: 5%;
+	margin-bottom: 1%;
+}
+#id_title{
+	float: left;
+	width: 20%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+#id_value{
+	float: left;
+	width: 79.25%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+#id_text{
+	float: left;
+	width: 50%;
+	height: 60%;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+#my_info_level{
+	color: #0080ff;
+	font-size: 10pt;
+	margin-top: 5%;
+	margin-left: 10%;
+	width: 20%;
+	height: 50%;
+	float: right;
+	background-color: #FFFFFF;
+}
+
+
+#name_frame{
+	width: 80%;
+	height: 7%;
+	margin-bottom: 1%;
+	background-color: #FFFFFF;
+	border-radius: 8px;
+}
+#name_title{
+	float: left;
+	width: 20%;
+	height: 100%;
+	border-radius: 8px;
+}
+#name_value{
+	float: left;
+	width: 79.25%;
+	height: 100%;
+	border-radius: 8px;
+}
+#name_text{
+	float: left;
+	width: 50%;
+	height: 60%;
+	margin-top: 2%;
+	margin-left: 2%;
+	outline: none;
+}
+
+
+#birth_frame{
+	border-radius: 8px;
+	width: 80%;
+	height: 7%;
+	margin-bottom: 1%;
+	background-color: #FFFFFF;
+}
+#birth_title{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+#birth_value{
+	float: left;
+	width: 79.25%;
+	height: 100%;
+}
+#birth_select_year{
+	width: 20%;
+	height: 60%;
+	margin-top: 2%;
+	margin-left: 2%;
+	outline: none;
+}
+#birth_select_month{
+	width: 13%;
+	height: 60%;
+	outline: none;
+}
+#birth_select_day{
+	width: 13%;
+	height: 60%;
+	outline: none;
+}
+
+
+#gender_frame{
+	border-radius: 8px;
+	width: 80%;
+	height: 7%;
+	margin-bottom: 1%;
+	background-color: #FFFFFF;
+}
+#gender_title{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+#gender_value{
+	float: left;
+	width: 79.25%;
+	height: 100%;
+}
+#male{
+	margin-top: 3.8%;
+	margin-left: 2%;
+}
+label{
+	margin-left:1%;
+}
+
+
+#post_frame{
+	border-radius: 8px;
+	width: 80%;
+	height: 7%;
+	margin-bottom: 1%;
+	background-color: #FFFFFF;
+}
+#post_title{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+#post_value{
+	float: left;
+	width: 79.25%;
+	height: 100%;
+}
+#post_code{
+	float: left;
+	width: 40%;
+	height: 60%;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+#input_div{
+	margin-top: 0.5%;
+}
+#post_click{
+	float: left;
+	margin-top: 0.9%;
+	margin-left: 2%;
+}
+
+
+
+#address1_frame{
+	border-radius: 8px;
+	width: 80%;
+	height: 7%;
+	margin-bottom: 1%;
+	background-color: #FFFFFF;
+}
+#address1_title{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+#address1_value{
+	float: left;
+	width: 79.25%;
+	height: 100%;
+}
+#address1{
+	width: 60%;
+	height: 60%;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+
+#address2_frame{
+	border-radius: 8px;
+	width: 80%;
+	height: 7%;
+	margin-bottom: 1%;
+	background-color: #FFFFFF;
+}
+#address2_title{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+#address2_value{
+	float: left;
+	width: 79.25%;
+	height: 100%;
+}
+#address2{
+	width: 60%;
+	height: 60%;
+	margin-top: 2%;
+	margin-left: 2%;
+	outline: none;
+}
+
+
+
+#phone_frame{
+	border-radius: 8px;
+	width: 80%;
+	height: 7%;
+	margin-bottom: 1%;
+	background-color: #FFFFFF;
+}
+#phone_title{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+#phone_value{
+	float: left;
+	width: 79.25%;
+	height: 100%;
+}
+#hp1{
+	float: left;
+	width: 20%;
+	height: 60%;
+	margin-top: 2%;
+	margin-left: 2%;
+	outline: none;
+	text-align: center;
+}
+#hp2{
+	width: 20%;
+	height: 60%;
+	margin-top: 2%;
+	outline: none;
+	text-align: center;
+}
+#hp3{
+	width: 20%;
+	height: 60%;
+	margin-top: 2%;
+	outline: none;
+	text-align: center;
+}
+
+
+#email_frame{
+	border-radius: 8px;
+	width: 80%;
+	height: 7%;
+	margin-bottom: 1%;
+	background-color: #FFFFFF;
+}
+#email_title{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+#email_value{
+	float: left;
+	width: 79.25%;
+	height: 100%;
+}
+#email1{
+	width: 30%;
+	height: 60%;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+#email2{
+	width: 30%;
+	height: 60%;
+	margin-top: 2%;	
+}
+
+.my_info_p{
+	margin-top: 12%;
+	margin-left: 10%;
+	text-align: center;
+}
+
+
+#member_drop{
+	width: 8.5%;
+	height: 2.5%;
+	font-size: 10pt;
+	font-family: 굴림체;
+	text-align: center;
+	float: left;
+	margin-top: 3%;
+	margin-left: 10%;
+	color: #0000ff;
+}
+#delete_a{
+	text-decoration: none;
+	color: #004080;
+}
+
+
+#my_info_submit{
+	width: 7.8%;
+	height: 4.5%;
+	float: right;
+	margin-right: 27.5%;
+}

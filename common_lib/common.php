@@ -1,0 +1,21 @@
+<?php  
+   date_default_timezone_set("Asia/Seoul");
+  $DBflag = "NO";
+  $con =mysqli_connect("localhost","root","123456","") or die("MySQL 접속실패!");
+  $sql = "show databases";
+  $result = mysqli_query($con, $sql) or die("실패원인2:".mysqli_error($con));
+  
+  while($row=mysqli_fetch_row($result)){
+    if($row[0] == "projectDB"){
+      $DBflag = "OK";
+      break;
+    }
+  }
+  if($DBflag !== "OK"){
+    $sql = "create database projectDB";
+    if(mysqli_query($con,$sql)){
+      echo "<script>alert('projectDB 생성완료!')</script>";
+    }
+  }  
+  $con = mysqli_connect("localhost","root","123456","projectDB") or die("projectDB 접속실패!");
+?>

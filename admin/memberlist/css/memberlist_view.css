@@ -1,0 +1,32 @@
+@charset "UTF-8";
+#my_info_table{
+	border: 1px solid #e4fcfe;
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+}
+#my_info_th{
+	height: 8%;
+	font-size: 15pt;
+	border-radius: 6px;
+	background-color: #088a99;
+	color: #FFFFFF;
+}
+.category{
+	background-color: #e8e8e8;
+	width: 30%;
+	height: 5%;
+	border-radius: 6px;
+	text-align: center;
+	font-family: 굴림체;
+	font-size: 11pt;
+	font-weight: bold;
+	color: #808080;
+}
+.my_info{
+	border: 1px solid #e8e8e8;
+	border-radius: 6px;
+	padding-left: 3%;
+	font-size: 11pt;
+}
+

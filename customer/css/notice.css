@@ -1,0 +1,183 @@
+@charset "UTF-8";
+div#sec{
+	background-color: #EAF5F9;
+	width: 1550px;
+	height: 70%;
+}
+#notice2{
+	margin-top: 4%;
+    width: 13%;
+	height: 70%;
+	float: left;
+	 margin-left: 31%;
+}
+#qna2{
+	margin-top: 4%;
+    width: 13%;
+	height: 70%;
+	float: left;
+	margin-left: 13%;
+}
+#content{
+	height: 111%;
+	width: 79.9%;
+	background-color: FFFFFF;
+	margin-left: 10%;
+}
+div#notice_content{
+	margin-top: 4%;
+	margin-left: 0%;
+	text-align: center;
+	height: 6%;
+	padding-top: 1%;
+}
+p#noti{
+	font-size: 15pt;
+}
+div#noti1{
+	border: 1px dotted black;
+	margin-left: 29.7%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 40%;
+	height: 4.6%;
+	padding-top: 1%;
+	text-align: center;
+	border-radius: 8px;
+}
+
+
+
+#table_a{
+	width: 100%;
+	height: 50%;
+}
+.tb{
+	border: 1px solid 999999;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 10pt;
+	background-color: #088a99;
+	color: #ffffff;
+}
+table#table_size{
+	width: 70%;
+}
+tr#tr1{
+	height: 28px;
+}
+td#no{
+	width: 6%;
+}
+td#division{
+	width: 11%;
+}
+td#title{
+	width: 50%;
+}
+td#day{
+	width: 17%;
+}
+td#check{
+	width: 8%;
+}
+
+tr.tr2{
+	height: 25px;
+}
+.tb1{
+	font-size: 9pt;
+	border: 1px solid #EEEEEE;
+	background-color: #EEEEEE;
+	border-radius: 5px;
+	text-align: center;
+	color: #757575;
+}
+#sf{
+	width: 22%;
+	height: 3%;
+	margin-right: 15%;
+}
+#combobox{
+	float: left;
+	width: 22%;
+	height: 99%;
+	outline: none;
+}
+#search_find{
+	float: left;
+}
+#notice_search{
+	height: 99%;
+	background-image: url('./img/find.png'); 
+	background-repeat:repeat;
+	outline: none;
+}
+#find{
+	float: left;
+	height: 99%;
+	width: 18%;
+	outline: none;
+}
+#check_img{
+	width: 110%;
+	height: 113%;
+	float: left;
+	margin-top: -5%;
+}
+
+
+#bottom_background{
+	width: 23%;
+	text-align: center;
+}
+#list_id{
+	margin-top: 1%;
+	width: 20%;
+	height: 4%;
+	text-align: center;
+	margin-right: 13%;
+}
+
+
+#clear{
+   margin-top:2%;
+   margin-bottom:2%;
+   clear: both;
+   width: 95%;
+}
+
+
+.link_page:hover{	
+	color: #464646;
+	text-decoration: none;
+}
+.link_page:link{
+	color: #757575;
+	text-decoration: none;
+}
+.link_page:visited {
+	color: #757575;
+	text-decoration: none;
+}
+.link_page:active {
+	color: #464646;
+	text-decoration: none;
+}
+#subject_click:hover{	
+	color: #464646;
+	text-decoration: none;
+	font-weight: bold;
+}
+#subject_click:link{
+	color: #757575;
+	text-decoration: none;
+}
+#subject_click:visited {
+	color: #757575;
+	text-decoration: none;
+}
+#subject_click:active {
+	color: #464646;
+	text-decoration: none;
+}

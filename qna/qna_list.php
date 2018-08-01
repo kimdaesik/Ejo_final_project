@@ -189,10 +189,16 @@ $number = $total_record - $start;
                   </div>
 						<div id="button_qna">
 							<div id="list_id">
-								<a href="qna_list.php?table=<?=$table?>&page=<?=$page?>"> <input
-									type="image" src="./img/list.png"></a> <a
-									href="qna_write_form.php?table=<?=$table?>&page=<?=$page?>"> <input
-									type="image" src="./img/write.png"></a>
+								<a href="qna_list.php?table=<?=$table?>&page=<?=$page?>"> 
+								<input type="image" src="./img/list.png"></a> 
+								<?php 
+								if(isset($_SESSION['id'])){
+								?>
+								<a href="qna_write_form.php?table=<?=$table?>&page=<?=$page?>"> 
+								<input type="image" src="./img/write.png"></a>
+								<?php
+								}
+								?>
 
 							</div>
 						</div>

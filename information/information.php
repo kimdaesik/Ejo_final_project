@@ -5,7 +5,6 @@ session_start();
 
 if(isset($_SESSION['id'])){
     $id=$_SESSION['id'];
-    $name=$_SESSION['name'];
 }
 
 $sql="select * from membership where id='$id'";
@@ -15,7 +14,7 @@ $row=mysqli_fetch_array($result);
 $birth=$row['birth_year']."-".$row['birth_month']."-".$row['birth_day'];
 $phone=$row['phone1']."-".$row['phone2']."-".$row['phone3'];
 
-
+$name=$row['name'];
 
 $email=explode("@",$row['email']);
 $email1=$email[0]; //$email[0] 을 $email1변수에 저장
@@ -73,7 +72,7 @@ function pw_change(){
                </tr>
                <tr>
                   <td class="category">성 명</td>
-                  <td class="my_info"><?=$row['name']?></td>
+                  <td class="my_info"><?=$name?></td>
                </tr>
                <tr>
                   <td class="category">생 년 월 일</td>
@@ -147,7 +146,6 @@ $number=$total_record-$start;
                        mysqli_data_seek($result, $i);
                        $row = mysqli_fetch_array($result);
                        $num1= mysqli_num_rows($result1);
-                        
                        $room_type=$row['room_type'];
                        $payment=$row['payment'];
                        $money=$row['money']."원";
